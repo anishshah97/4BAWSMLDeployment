@@ -17,4 +17,4 @@ EXPOSE 5000
 # Run the application:
 #####Enter the Command to run the app here. The line below is incomplete
 #########Enter code here#################
-CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+CMD ["flask", "run", "--host=0.0.0.0"]
